@@ -1,0 +1,25 @@
+{
+  "name": "export-firefox-profile",
+  "version": "1.0.0",
+  "description": "Exports a certificate loaded firefox profile to use with fijimunkii/testify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fijimunkii/export-firefox-profile.git"
+  },
+  "author": "Harrison Powers",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fijimunkii/export-firefox-profile/issues"
+  },
+  "homepage": "https://github.com/fijimunkii/export-firefox-profile#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "firefox-profile": "^0.4.2",
+    "mkdirp": "^0.5.1"
+  }
+}
